@@ -1,0 +1,7 @@
+process.once('uncaughtException', function (error) {
+  console.log('예외가 발생했군 한번만 바줌');
+});
+
+setInterval(function () {
+  error.error.error('^_^');
+}, 2000);
